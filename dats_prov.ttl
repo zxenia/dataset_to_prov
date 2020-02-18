@@ -1,0 +1,139 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix example: <https://example.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+example:MS002001_RNA-Seq a prov:Entity ;
+    dcterms:description "The RNA-seq experiment from human brain sample. The donor is 42 years old healthy male individual. Biomaterial type is primary tissue with tissue type Brodmann (1909) area 11 (http://purl.obolibrary.org/obo/UBERON_0013528). "^^xsd:string ;
+    dcterms:title "McGill EMC: RNA-seq experiment from human brain sample"^^xsd:string ;
+    prov:atLocation [ a prov:Location ;
+            prov:label "IHEC data portal"^^xsd:string ] ;
+    prov:generatedAtTime [ rdfs:comment [ prov:value "CONP DATS file creation date"^^xsd:string ] ;
+            xsd:dateTime "2020-01-22 00:00:00" ] ;
+    prov:specializationOf example:MS002001_RNA-Seq_signal_forward,
+        example:MS002001_RNA-Seq_signal_reverse ;
+    prov:used [ a prov:Entity ;
+            prov:label "Raw data url"^^xsd:string ;
+            prov:value [ prov:value "https://www.ebi.ac.uk/ega/datasets/EGAD00001001284"^^xsd:string ] ],
+        [ a prov:Entity ;
+            prov:label "contact"^^xsd:string ;
+            prov:value [ prov:value "info@epigenomesportal.ca"^^xsd:string ] ],
+        [ a prov:Entity ;
+            prov:label "IHEC Data portal url"^^xsd:string ;
+            prov:value [ prov:value "https://epigenomesportal.ca/ihec/"^^xsd:string ] ] ;
+    prov:wasAttributedTo [ a prov:Organization ;
+            prov:label "McGill EMC"^^xsd:string ] ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:label "RNA-seq"^^xsd:string ;
+            prov:used [ a prov:Entity ;
+                    prov:label "rna_preparation_5'_dephosphorylation"^^xsd:string ;
+                    prov:value [ prov:value "NA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_fragmentation"^^xsd:string ;
+                    prov:value [ prov:value "Fragmentation by temperature (default) as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "rna_preparation_5'_rna_adapter_sequence"^^xsd:string ;
+                    prov:value [ prov:value "Random primers as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "rna_preparation_5'_rna_adapter_ligation_protocol"^^xsd:string ;
+                    prov:value [ prov:value "NA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "extraction_protocol_fragmentation"^^xsd:string ;
+                    prov:value [ prov:value "NA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_3'_adapter_sequence"^^xsd:string ;
+                    prov:value [ prov:value "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_fragment_size_range"^^xsd:string ;
+                    prov:value [ prov:value "~200bp"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "extraction_protocol_mrna_enrichment"^^xsd:string ;
+                    prov:value [ prov:value "NA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "preparation_reverse_transcription_protocol"^^xsd:string ;
+                    prov:value [ prov:value "Reverse transcription carried out as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_5'_adapter_sequence"^^xsd:string ;
+                    prov:value [ prov:value "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "rna_preparation_3'_rna adapter_ligation_protocol"^^xsd:string ;
+                    prov:value [ prov:value "NA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "rna_preparation_reverse_transcription_primer_sequence"^^xsd:string ;
+                    prov:value [ prov:value "Random primers as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_pcr_r_primer_sequence"^^xsd:string ;
+                    prov:value [ prov:value "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_pcr_polymerase_type"^^xsd:string ;
+                    prov:value [ prov:value "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "template_type"^^xsd:string ;
+                    prov:value [ prov:value "cDNA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_pcr_primer_conc"^^xsd:string ;
+                    prov:value [ prov:value "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_pcr_f_primer_sequence"^^xsd:string ;
+                    prov:value [ prov:value "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_pcr_number_cycles"^^xsd:string ;
+                    prov:value [ prov:value "12 cycles"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "mrna_preparation_fragment_size_range"^^xsd:string ;
+                    prov:value [ prov:value "NA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_protocol"^^xsd:string ;
+                    prov:value [ prov:value "Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_pcr_thermocycling_program"^^xsd:string ;
+                    prov:value [ prov:value "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "amplified"^^xsd:string ;
+                    prov:value [ prov:value "1"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "rna_preparation_5'_phosphorylation"^^xsd:string ;
+                    prov:value [ prov:value "NA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "extraction_protocol"^^xsd:string ;
+                    prov:value [ prov:value "Tissue samples in TRIzol (Invitrogen) were disrupted using a POLYTRON machine. Total RNA from cells and tissues were extracted using miRNeasy kit (including a DNaseI treatment step) and quality assessed by Agilent 2100 BioAnalyzer (Agilent Technologies)."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "rna_preparation_3'_rna_adapter_sequence"^^xsd:string ;
+                    prov:value [ prov:value "Random hexamers as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_pcr_template_conc"^^xsd:string ;
+                    prov:value [ prov:value "NA"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "library_generation_pcr_product_isolation_protocol"^^xsd:string ;
+                    prov:value [ prov:value "Magnetic Bead-mediated PCR product purification as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "preparation_initial_mrna_qnty"^^xsd:string ;
+                    prov:value [ prov:value "500ng"^^xsd:string ] ],
+                [ a prov:Entity ;
+                    prov:label "preparation_pcr_number_cycles"^^xsd:string ;
+                    prov:value [ prov:value "NA"^^xsd:string ] ] ;
+            prov:wasAssociatedWith [ a prov:SoftwareAgent ;
+                    dcterms:description "alignment software"^^xsd:string ;
+                    prov:label "TopHat"^^xsd:string ] ] .
+
+example:MS002001_RNA-Seq_signal_forward a prov:Entity ;
+    dcterms:description "RNA-seq signal forward bigWig file."^^xsd:string ;
+    dcterms:title "RNA-seq signal forward bigWig"^^xsd:string ;
+    prov:atLocation [ a prov:Location ;
+            dcterms:description ".bigWig file"^^xsd:string ;
+            prov:label "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51570.CEEHRC.MS002001.RNA-Seq.signal_forward.bigWig"^^xsd:string ] ;
+    prov:wasAttributedTo [ a prov:Organization ;
+            prov:label "McGill EMC"^^xsd:string ] .
+
+example:MS002001_RNA-Seq_signal_reverse a prov:Entity ;
+    dcterms:description "RNA-seq signal reverse bigWig file."^^xsd:string ;
+    dcterms:title "RNA-seq signal reverse bigWig"^^xsd:string ;
+    prov:atLocation [ a prov:Location ;
+            dcterms:description ".bigWig file"^^xsd:string ;
+            prov:label "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51571.CEEHRC.MS002001.RNA-Seq.signal_reverse.bigWig"^^xsd:string ] ;
+    prov:wasAttributedTo [ a prov:Organization ;
+            prov:label "McGill EMC"^^xsd:string ] .
+

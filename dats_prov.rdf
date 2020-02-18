@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <prov:Entity rdf:about="https://example.org/MS002001_RNA-Seq">
+    <prov:specializationOf>
+      <prov:Entity rdf:about="https://example.org/MS002001_RNA-Seq_signal_reverse">
+        <prov:atLocation>
+          <prov:Location rdf:nodeID="N4b2b322ac66846ef9afc1ac904bad0b5">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://epigenomesportal.ca/tracks/CEEHRC/hg19/51571.CEEHRC.MS002001.RNA-Seq.signal_reverse.bigWig</prov:label>
+            <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.bigWig file</dcterms:description>
+          </prov:Location>
+        </prov:atLocation>
+        <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-seq signal reverse bigWig</dcterms:title>
+        <prov:wasAttributedTo>
+          <prov:Organization rdf:nodeID="N35acb0b3d7db487ea4a90db31636f3c5">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McGill EMC</prov:label>
+          </prov:Organization>
+        </prov:wasAttributedTo>
+        <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-seq signal reverse bigWig file.</dcterms:description>
+      </prov:Entity>
+    </prov:specializationOf>
+    <prov:generatedAtTime>
+      <rdf:Description rdf:nodeID="N0d3966060718476eb4da1cd7b9696d3a">
+        <rdfs:comment>
+          <rdf:Description rdf:nodeID="N728a82c729764e03ac1e3b48844de482">
+            <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CONP DATS file creation date</prov:value>
+          </rdf:Description>
+        </rdfs:comment>
+        <xsd:dateTime>2020-01-22 00:00:00</xsd:dateTime>
+      </rdf:Description>
+    </prov:generatedAtTime>
+    <prov:wasGeneratedBy>
+      <prov:Activity rdf:nodeID="N3b6b879e0a624624a6d65284e5e88820">
+        <prov:used>
+          <prov:Entity rdf:nodeID="Nd93f2f185cd94b5aa8fc8efffd966996">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_pcr_product_isolation_protocol</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="N64da90d74cfd4eb1ab559fcf35286d03">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic Bead-mediated PCR product purification as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N922bcc0d09734849af28cca1d6cf78a7">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_pcr_number_cycles</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="Nbfac5db4eaf149cbadeaea17068277b1">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 cycles</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N6c7f6635cc5243f88ddaa13eb82adfad">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N66628efabc214fdc9a5d9564f51ecb75">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500ng</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preparation_initial_mrna_qnty</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N37d90b9daf974ec9a65cfa2d4cdf308e">
+            <prov:value>
+              <rdf:Description rdf:nodeID="Na58231d0ff9044298eeb610e0e585533">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amplified</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Nf9fc9481f469473094aea501c954b93d">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraction_protocol_mrna_enrichment</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="N956a85c7cd4b493e9936702a33dbf4f0">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-seq</prov:label>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Na2cc4f77fb9d4dff94b0e34620b897da">
+            <prov:value>
+              <rdf:Description rdf:nodeID="Nf00de364d7c1415fbd70354e7adedc31">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_pcr_polymerase_type</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N873958be93c244ec96830e448aa4e696">
+            <prov:value>
+              <rdf:Description rdf:nodeID="Ncf3644d17cdc4b02bf7e1eaafbc40527">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_pcr_r_primer_sequence</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N92b21a0fb7e841f486fdc93cd87d921d">
+            <prov:value>
+              <rdf:Description rdf:nodeID="Ne17df5a2c56944d3b0a758fb861215bd">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGATCGGAAGAGCACACGTCTGAACTCCAGTCA</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_5'_adapter_sequence</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N6027e555cb244d3d9191fbbd44d6dfd6">
+            <prov:value>
+              <rdf:Description rdf:nodeID="Nd16b91d3e89d42d799eedb52e7bedd2b">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preparation_pcr_number_cycles</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Nbba4f019005146de9eaa1d74aa9ea14b">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna_preparation_5'_rna_adapter_ligation_protocol</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="N7bf2a8351e764efdae3a091416f421b8">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Ne1f5b5f5ff194451891ba3144d6f9c9c">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N0ce5243c97b74ccfb23873924128c3ed">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_pcr_template_conc</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Na6f64b448531474db071bcbf1f57754b">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna_preparation_5'_rna_adapter_sequence</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="N9a97a4798b5d4f7f80be4cb1c496c2a7">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random primers as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Nea26110dc29246cdbc91a608a7571da7">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N4200d18726304e56a2ee6c20828f7c78">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mrna_preparation_fragment_size_range</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N38fdd9c9470d4076b8923699f683fd1a">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna_preparation_5'_dephosphorylation</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="N941dcc8531f54da19e35f847b80e0b26">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Nf0c9224562ba4c87b5efb46ddd434659">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N7f53afa7de3a48f39457c9d5bba3f338">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraction_protocol_fragmentation</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Nc063d6f09adf4eb1bc84d7d1b9b0adbb">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N7f714890d41f437cabfd7e4fb77ad1c0">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_pcr_primer_conc</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Neee4722d8ee8474792aed12a888bfeab">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_fragmentation</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="Naa9b3320a5174934924f2b781f91b1f5">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fragmentation by temperature (default) as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N203491301f2a43d390856b6b74e4a6fa">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_3'_adapter_sequence</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="N7f1c6bd7b40244e0a2c2a0362c74da8a">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N68f151e3bd314d318a7dc1f93b7a0e5e">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N94d8cd2c081c458d9086462d1088b76e">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random primers as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna_preparation_reverse_transcription_primer_sequence</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Ne8b43294a7534e858d1b6a83fe36d0b9">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_pcr_f_primer_sequence</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="Ned67d9220eb242d8964c7e6fe331efe4">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N20feb81ed33d4700b55fdaaca8f45d4b">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N92ad095e762142f290de77d1a6d5fea5">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_protocol</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N92d8e492298441c3bcb3616917a67191">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N82feef2dcbac4cbfac0ec469ae29bdd1">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue samples in TRIzol (Invitrogen) were disrupted using a POLYTRON machine. Total RNA from cells and tissues were extracted using miRNeasy kit (including a DNaseI treatment step) and quality assessed by Agilent 2100 BioAnalyzer (Agilent Technologies).</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extraction_protocol</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Nc9b8c415ff4546219034e559fff0991f">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N05c8d0e300d4452c9c1f3c30d1a78af4">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random hexamers as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna_preparation_3'_rna_adapter_sequence</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N686dc19f55c54e9aaa762fb744b754d9">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna_preparation_3'_rna adapter_ligation_protocol</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="N7b03b690e9ea4ac28484dc5a08fca27b">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N6f098707ee174b8c9b0904670279184f">
+            <prov:value>
+              <rdf:Description rdf:nodeID="Ncb9e26784e7240bb96e15ee563ed247d">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_pcr_thermocycling_program</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N9e1550db0f2b4d8abbebae522fa09a97">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">template_type</prov:label>
+            <prov:value>
+              <rdf:Description rdf:nodeID="Nf7cc6f6101694a7cb10c5269cb200a6d">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cDNA</prov:value>
+              </rdf:Description>
+            </prov:value>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="Nab8eabc97d964a46a41f2d6ae080e56d">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N5196964cfa8d406884be6ce9ff9c7857">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~200bp</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">library_generation_fragment_size_range</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:wasAssociatedWith>
+          <prov:SoftwareAgent rdf:nodeID="N055989f4db87455a990da7f5e1ee2c4e">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TopHat</prov:label>
+            <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alignment software</dcterms:description>
+          </prov:SoftwareAgent>
+        </prov:wasAssociatedWith>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N1c41953f532c4dee837addc59af9327e">
+            <prov:value>
+              <rdf:Description rdf:nodeID="Ncb40bad95fd24e9d91876244a21299ad">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reverse transcription carried out as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide.</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preparation_reverse_transcription_protocol</prov:label>
+          </prov:Entity>
+        </prov:used>
+        <prov:used>
+          <prov:Entity rdf:nodeID="N849e179b24a24182956ccf3931134f36">
+            <prov:value>
+              <rdf:Description rdf:nodeID="N6f52a0fe26004af988052dd867c776d8">
+                <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NA</prov:value>
+              </rdf:Description>
+            </prov:value>
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rna_preparation_5'_phosphorylation</prov:label>
+          </prov:Entity>
+        </prov:used>
+      </prov:Activity>
+    </prov:wasGeneratedBy>
+    <prov:used>
+      <prov:Entity rdf:nodeID="Nef739e3d89d84a76ab0d8c54be3c68c1">
+        <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact</prov:label>
+        <prov:value>
+          <rdf:Description rdf:nodeID="N755ba684426a4fed9d0bd7d45a068065">
+            <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">info@epigenomesportal.ca</prov:value>
+          </rdf:Description>
+        </prov:value>
+      </prov:Entity>
+    </prov:used>
+    <prov:atLocation>
+      <prov:Location rdf:nodeID="N5ac5be3b787941c0acdad1e03f9a700e">
+        <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IHEC data portal</prov:label>
+      </prov:Location>
+    </prov:atLocation>
+    <prov:used>
+      <prov:Entity rdf:nodeID="N7afbecd4e5aa48e4aee32698776c6dac">
+        <prov:value>
+          <rdf:Description rdf:nodeID="N59d3ebac7f424c229f19e8985a57b02d">
+            <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://epigenomesportal.ca/ihec/</prov:value>
+          </rdf:Description>
+        </prov:value>
+        <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IHEC Data portal url</prov:label>
+      </prov:Entity>
+    </prov:used>
+    <prov:specializationOf>
+      <prov:Entity rdf:about="https://example.org/MS002001_RNA-Seq_signal_forward">
+        <prov:atLocation>
+          <prov:Location rdf:nodeID="N4cd866cdec1c4951a943ad2639c1ec0b">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://epigenomesportal.ca/tracks/CEEHRC/hg19/51570.CEEHRC.MS002001.RNA-Seq.signal_forward.bigWig</prov:label>
+            <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.bigWig file</dcterms:description>
+          </prov:Location>
+        </prov:atLocation>
+        <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-seq signal forward bigWig file.</dcterms:description>
+        <prov:wasAttributedTo>
+          <prov:Organization rdf:nodeID="Nf777559671424028a650f58197e7a720">
+            <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McGill EMC</prov:label>
+          </prov:Organization>
+        </prov:wasAttributedTo>
+        <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-seq signal forward bigWig</dcterms:title>
+      </prov:Entity>
+    </prov:specializationOf>
+    <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The RNA-seq experiment from human brain sample. The donor is 42 years old healthy male individual. Biomaterial type is primary tissue with tissue type Brodmann (1909) area 11 (http://purl.obolibrary.org/obo/UBERON_0013528). </dcterms:description>
+    <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McGill EMC: RNA-seq experiment from human brain sample</dcterms:title>
+    <prov:wasAttributedTo>
+      <prov:Organization rdf:nodeID="N941c9eefb84d406984d9421d83f88a94">
+        <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McGill EMC</prov:label>
+      </prov:Organization>
+    </prov:wasAttributedTo>
+    <prov:used>
+      <prov:Entity rdf:nodeID="Nd3d44dc171904f598d1695388b3a9a3f">
+        <prov:value>
+          <rdf:Description rdf:nodeID="Ndc678d09bb6249f1b55ba37884b9e05d">
+            <prov:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ebi.ac.uk/ega/datasets/EGAD00001001284</prov:value>
+          </rdf:Description>
+        </prov:value>
+        <prov:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raw data url</prov:label>
+      </prov:Entity>
+    </prov:used>
+  </prov:Entity>
+</rdf:RDF>
